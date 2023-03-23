@@ -11,7 +11,7 @@ st.header('Find my pic!')
 query = st.text_input('Write a description of the picture', ' Two people at the photo')
 st.button('Find!')
 
-img_count = st.slider('How much pic yoou need?', 2, 6, 4, 2)
+img_count = st.slider('How much pic yoou need?', 2, 10, 4, 2)
 
 rand_ind = random.sample(range(len(ten_pic_names)), img_count)
 n = 0
