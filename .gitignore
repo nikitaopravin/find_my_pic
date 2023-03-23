@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # Data folder
-data/
+data/flickr30k_images
+data/flickr30k_images.zip
 
 test.ipynb
