@@ -13,7 +13,7 @@ st.button('Find!')
 
 img_count = st.slider('How much pic yoou need?', 2, 6, 4, 2)
 
-rand_ind = random.sample(range(10), img_count)
+rand_ind = random.sample(range(len(ten_pic_names)), img_count)
 n = 0
 for i in range(int(img_count / 2)):
     for col in st.columns(2):
