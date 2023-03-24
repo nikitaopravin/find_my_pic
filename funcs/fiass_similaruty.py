@@ -7,7 +7,7 @@ import faiss
 device = 'cpu'
 model_path = "weights/ViT-B-32.pt"
 
-model, preprocess = clip.load(model_path)
+model, preprocess = clip.load('ViT-B/32', device)
 
 def load_embeddings(path_to_emb_file):
     features = np.load(path_to_emb_file)

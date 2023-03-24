@@ -7,7 +7,7 @@ import torch
 device = 'cpu'
 model_path = "weights/ViT-B-32.pt"
 
-model, preprocess = clip.load(model_path)
+model, preprocess = clip.load('ViT-B/32', device)
 
 
 def get_emb(image_folder):
