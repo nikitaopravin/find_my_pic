@@ -7,7 +7,6 @@ import clip
 import numpy as np
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-import cv2
 
 device = 'cpu'
 model_path = "weights/ViT-B-32.pt"
